@@ -4,6 +4,8 @@
 #include <stdio.h>
 #include "book.h"
 
+#define OUTPUT_FILE "serialized.file"
+
 void serialize_book(FILE* f, Book* p);
 Book* deserialize_book(FILE* f);
 
